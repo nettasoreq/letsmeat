@@ -4924,18 +4924,19 @@ if (reversed == null) { reversed = false; }
 		
 		self.outside.addEventListener("mouseover", turnoff);
 		function turnoff() {
-			if (partClicked == false) {//רק אם אף חלק לא לחוץ
+			if (partClicked == false) { //רק אם אף חלק לא לחוץ
+				stage.cursor = "auto";
 				if (clickBtnHigh == true) { //במקרה של קיבוע אחוז שומן גבוה
-					clickBtnHigh = false;//אתחול דגל
-					clickFats();//קיבוע נתחים שמנים
+					clickBtnHigh = false; //אתחול דגל
+					clickFats(); //קיבוע נתחים שמנים
 				} else if (clickBtnMedium == true) { //במקרה של קיבוע אחוז שומן בינוני
-					clickBtnMedium = false;//אתחול דגל
-					clickMedium();//קיבוע נתחים בינוניים
+					clickBtnMedium = false; //אתחול דגל
+					clickMedium(); //קיבוע נתחים בינוניים
 				} else if (clickBtnThin == true) { //במקרה של קיבוע אחוז שומן נמוך
-					clickBtnThin = false;//אתחול דגל
-					clickThin();//קיבוע נתחים רזים
+					clickBtnThin = false; //אתחול דגל
+					clickThin(); //קיבוע נתחים רזים
 				} else {
-					resetCow();//אתחול
+					resetCow(); //אתחול
 				}
 			}
 		}
@@ -5181,18 +5182,18 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/Artwork31aiAssetscopy.png?1601406203339", id:"Artwork31aiAssetscopy"},
-		{src:"images/lets_meat_atlas_1.png?1601406203104", id:"lets_meat_atlas_1"},
-		{src:"images/lets_meat_atlas_2.png?1601406203106", id:"lets_meat_atlas_2"},
-		{src:"images/lets_meat_atlas_3.png?1601406203107", id:"lets_meat_atlas_3"},
-		{src:"images/lets_meat_atlas_4.png?1601406203107", id:"lets_meat_atlas_4"},
-		{src:"images/lets_meat_atlas_5.png?1601406203107", id:"lets_meat_atlas_5"},
-		{src:"images/lets_meat_atlas_6.png?1601406203107", id:"lets_meat_atlas_6"},
-		{src:"images/lets_meat_atlas_7.png?1601406203108", id:"lets_meat_atlas_7"},
-		{src:"images/lets_meat_atlas_8.png?1601406203108", id:"lets_meat_atlas_8"},
-		{src:"images/lets_meat_atlas_9.png?1601406203108", id:"lets_meat_atlas_9"},
-		{src:"images/lets_meat_atlas_10.png?1601406203109", id:"lets_meat_atlas_10"},
-		{src:"images/lets_meat_atlas_11.png?1601406203109", id:"lets_meat_atlas_11"}
+		{src:"images/Artwork31aiAssetscopy.png?1601406539591", id:"Artwork31aiAssetscopy"},
+		{src:"images/lets_meat_atlas_1.png?1601406539377", id:"lets_meat_atlas_1"},
+		{src:"images/lets_meat_atlas_2.png?1601406539377", id:"lets_meat_atlas_2"},
+		{src:"images/lets_meat_atlas_3.png?1601406539379", id:"lets_meat_atlas_3"},
+		{src:"images/lets_meat_atlas_4.png?1601406539380", id:"lets_meat_atlas_4"},
+		{src:"images/lets_meat_atlas_5.png?1601406539380", id:"lets_meat_atlas_5"},
+		{src:"images/lets_meat_atlas_6.png?1601406539380", id:"lets_meat_atlas_6"},
+		{src:"images/lets_meat_atlas_7.png?1601406539380", id:"lets_meat_atlas_7"},
+		{src:"images/lets_meat_atlas_8.png?1601406539380", id:"lets_meat_atlas_8"},
+		{src:"images/lets_meat_atlas_9.png?1601406539381", id:"lets_meat_atlas_9"},
+		{src:"images/lets_meat_atlas_10.png?1601406539381", id:"lets_meat_atlas_10"},
+		{src:"images/lets_meat_atlas_11.png?1601406539382", id:"lets_meat_atlas_11"}
 	],
 	preloads: []
 };
