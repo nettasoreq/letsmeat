@@ -4375,6 +4375,7 @@ if (reversed == null) { reversed = false; }
 		//חלק כלשהו נלחץ
 		function clickedPart() {
 			self.cow.grayCow.visible = false; //הסתרת אפורים
+			self.cow.redCow.visible = true; // איפוס לפרה אדומה
 			self.tab1.visible = true; //פתיחת כרטיסיה
 			partClicked = true; //דגל- נלחץ חלק
 			letscook(); //התאמת הוראות
@@ -5225,18 +5226,18 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/Artwork31aiAssetscopy.png?1601474323973", id:"Artwork31aiAssetscopy"},
-		{src:"images/lets_meat_atlas_1.png?1601474323790", id:"lets_meat_atlas_1"},
-		{src:"images/lets_meat_atlas_2.png?1601474323792", id:"lets_meat_atlas_2"},
-		{src:"images/lets_meat_atlas_3.png?1601474323792", id:"lets_meat_atlas_3"},
-		{src:"images/lets_meat_atlas_4.png?1601474323792", id:"lets_meat_atlas_4"},
-		{src:"images/lets_meat_atlas_5.png?1601474323792", id:"lets_meat_atlas_5"},
-		{src:"images/lets_meat_atlas_6.png?1601474323792", id:"lets_meat_atlas_6"},
-		{src:"images/lets_meat_atlas_7.png?1601474323792", id:"lets_meat_atlas_7"},
-		{src:"images/lets_meat_atlas_8.png?1601474323792", id:"lets_meat_atlas_8"},
-		{src:"images/lets_meat_atlas_9.png?1601474323793", id:"lets_meat_atlas_9"},
-		{src:"images/lets_meat_atlas_10.png?1601474323793", id:"lets_meat_atlas_10"},
-		{src:"images/lets_meat_atlas_11.png?1601474323793", id:"lets_meat_atlas_11"}
+		{src:"images/Artwork31aiAssetscopy.png?1601474558992", id:"Artwork31aiAssetscopy"},
+		{src:"images/lets_meat_atlas_1.png?1601474558872", id:"lets_meat_atlas_1"},
+		{src:"images/lets_meat_atlas_2.png?1601474558872", id:"lets_meat_atlas_2"},
+		{src:"images/lets_meat_atlas_3.png?1601474558874", id:"lets_meat_atlas_3"},
+		{src:"images/lets_meat_atlas_4.png?1601474558874", id:"lets_meat_atlas_4"},
+		{src:"images/lets_meat_atlas_5.png?1601474558874", id:"lets_meat_atlas_5"},
+		{src:"images/lets_meat_atlas_6.png?1601474558875", id:"lets_meat_atlas_6"},
+		{src:"images/lets_meat_atlas_7.png?1601474558875", id:"lets_meat_atlas_7"},
+		{src:"images/lets_meat_atlas_8.png?1601474558875", id:"lets_meat_atlas_8"},
+		{src:"images/lets_meat_atlas_9.png?1601474558875", id:"lets_meat_atlas_9"},
+		{src:"images/lets_meat_atlas_10.png?1601474558875", id:"lets_meat_atlas_10"},
+		{src:"images/lets_meat_atlas_11.png?1601474558876", id:"lets_meat_atlas_11"}
 	],
 	preloads: []
 };
