@@ -9,16 +9,16 @@ var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
 		{name:"lets_meat_atlas_1", frames: [[0,0,1374,851],[0,853,1374,851]]},
-		{name:"lets_meat_atlas_2", frames: [[637,778,113,106],[1897,148,139,114],[0,0,607,325],[1039,0,669,288],[1481,290,501,323],[0,327,358,429],[360,457,420,319],[609,0,428,455],[1039,290,440,435],[1710,187,104,86],[782,457,189,170],[360,327,133,109],[925,974,133,109],[1710,0,185,185],[495,327,104,86],[1897,0,146,146],[0,931,499,83],[1481,615,546,139],[1440,869,519,86],[637,886,519,86],[1158,957,475,79],[0,778,635,151],[782,727,656,157],[1440,756,501,111],[501,974,422,86],[0,1016,417,70],[1060,1038,419,8],[1635,957,369,62],[1635,1021,371,7]]},
-		{name:"lets_meat_atlas_3", frames: [[1176,378,849,291],[0,1306,816,374],[0,1685,899,310],[454,628,720,419],[901,1685,795,319],[1290,0,715,376],[497,0,450,566],[1290,671,477,515],[1290,1188,473,479],[818,1049,470,634],[0,628,452,676],[0,0,495,626]]},
-		{name:"lets_meat_atlas_4", frames: [[502,1253,1042,340],[939,1595,910,379],[511,421,875,414],[0,1595,937,378],[502,837,875,414],[511,0,878,419],[0,741,500,726],[0,0,509,739],[1388,546,494,665],[1391,0,654,544]]},
-		{name:"lets_meat_atlas_5", frames: [[0,0,936,736],[938,0,936,736],[0,738,936,736],[938,738,936,736]]},
+		{name:"lets_meat_atlas_2", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]},
+		{name:"lets_meat_atlas_3", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]},
+		{name:"lets_meat_atlas_4", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]},
+		{name:"lets_meat_atlas_5", frames: [[0,841,994,736],[996,841,936,736],[0,0,924,839],[926,0,924,839]]},
 		{name:"lets_meat_atlas_6", frames: [[0,0,936,736],[938,0,936,736],[0,738,936,736],[938,738,936,736]]},
 		{name:"lets_meat_atlas_7", frames: [[0,0,936,736],[938,0,936,736],[0,738,936,736],[938,738,936,736]]},
-		{name:"lets_meat_atlas_8", frames: [[0,841,994,736],[996,841,936,736],[0,0,924,839],[926,0,924,839]]},
-		{name:"lets_meat_atlas_9", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]},
-		{name:"lets_meat_atlas_10", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]},
-		{name:"lets_meat_atlas_11", frames: [[0,0,924,839],[926,0,924,839],[0,841,924,839],[926,841,924,839]]}
+		{name:"lets_meat_atlas_8", frames: [[0,0,936,736],[938,0,936,736],[0,738,936,736],[938,738,936,736]]},
+		{name:"lets_meat_atlas_9", frames: [[502,1253,1042,340],[939,1595,910,379],[511,421,875,414],[0,1595,937,378],[502,837,875,414],[511,0,878,419],[0,741,500,726],[0,0,509,739],[1388,546,494,665],[1391,0,654,544]]},
+		{name:"lets_meat_atlas_10", frames: [[1176,378,849,291],[0,1306,816,374],[0,1685,899,310],[454,628,720,419],[901,1685,795,319],[1290,0,715,376],[497,0,450,566],[1290,671,477,515],[1290,1188,473,479],[818,1049,470,634],[0,628,452,676],[0,0,495,626]]},
+		{name:"lets_meat_atlas_11", frames: [[637,778,113,106],[1897,148,139,114],[0,0,607,325],[1039,0,669,288],[1481,290,501,323],[0,327,358,429],[360,457,420,319],[609,0,428,455],[1039,290,440,435],[1710,187,104,86],[782,457,189,170],[360,327,133,109],[925,974,133,109],[1710,0,185,185],[495,327,104,86],[1897,0,146,146],[0,931,499,83],[1481,615,546,139],[1440,869,519,86],[637,886,519,86],[1158,957,475,79],[0,778,635,151],[782,727,656,157],[1440,756,501,111],[501,974,422,86],[0,1016,417,70],[1060,1038,419,8],[1635,957,369,62],[1635,1021,371,7]]}
 ];
 
 
@@ -98,455 +98,455 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_86 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_85 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_84 = function() {
+	this.initialize(ss["lets_meat_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_83 = function() {
+	this.initialize(ss["lets_meat_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_82 = function() {
 	this.initialize(ss["lets_meat_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_326 = function() {
-	this.initialize(ss["lets_meat_atlas_11"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_325 = function() {
-	this.initialize(ss["lets_meat_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_324 = function() {
-	this.initialize(ss["lets_meat_atlas_11"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_323 = function() {
-	this.initialize(ss["lets_meat_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_322 = function() {
-	this.initialize(ss["lets_meat_atlas_11"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_321 = function() {
-	this.initialize(ss["lets_meat_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_320 = function() {
-	this.initialize(ss["lets_meat_atlas_11"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_319 = function() {
-	this.initialize(ss["lets_meat_atlas_7"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_318 = function() {
-	this.initialize(ss["lets_meat_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_317 = function() {
-	this.initialize(ss["lets_meat_atlas_7"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_316 = function() {
-	this.initialize(ss["lets_meat_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_315 = function() {
-	this.initialize(ss["lets_meat_atlas_7"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_314 = function() {
-	this.initialize(ss["lets_meat_atlas_10"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_313 = function() {
-	this.initialize(ss["lets_meat_atlas_6"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_312 = function() {
-	this.initialize(ss["lets_meat_atlas_10"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_311 = function() {
-	this.initialize(ss["lets_meat_atlas_6"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_310 = function() {
-	this.initialize(ss["lets_meat_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_309 = function() {
-	this.initialize(ss["lets_meat_atlas_6"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_308 = function() {
-	this.initialize(ss["lets_meat_atlas_9"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_307 = function() {
-	this.initialize(ss["lets_meat_atlas_6"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_306 = function() {
-	this.initialize(ss["lets_meat_atlas_9"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_305 = function() {
-	this.initialize(ss["lets_meat_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_304 = function() {
-	this.initialize(ss["lets_meat_atlas_9"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_303 = function() {
+(lib.CachedBmp_81 = function() {
 	this.initialize(ss["lets_meat_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_302 = function() {
-	this.initialize(ss["lets_meat_atlas_8"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_301 = function() {
-	this.initialize(ss["lets_meat_atlas_5"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_300 = function() {
-	this.initialize(ss["lets_meat_atlas_8"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_299 = function() {
-	this.initialize(ss["lets_meat_atlas_5"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_298 = function() {
+(lib.CachedBmp_80 = function() {
 	this.initialize(ss["lets_meat_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_297 = function() {
+(lib.CachedBmp_79 = function() {
+	this.initialize(ss["lets_meat_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_78 = function() {
+	this.initialize(ss["lets_meat_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_77 = function() {
+	this.initialize(ss["lets_meat_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_76 = function() {
+	this.initialize(ss["lets_meat_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_75 = function() {
+	this.initialize(ss["lets_meat_atlas_6"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_74 = function() {
+	this.initialize(ss["lets_meat_atlas_3"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_73 = function() {
+	this.initialize(ss["lets_meat_atlas_6"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_72 = function() {
+	this.initialize(ss["lets_meat_atlas_3"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_71 = function() {
+	this.initialize(ss["lets_meat_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_70 = function() {
+	this.initialize(ss["lets_meat_atlas_3"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_69 = function() {
+	this.initialize(ss["lets_meat_atlas_7"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_68 = function() {
 	this.initialize(ss["lets_meat_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_296 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
-	this.gotoAndStop(0);
+(lib.CachedBmp_67 = function() {
+	this.initialize(ss["lets_meat_atlas_7"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_295 = function() {
+(lib.CachedBmp_66 = function() {
 	this.initialize(ss["lets_meat_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_294 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_65 = function() {
+	this.initialize(ss["lets_meat_atlas_7"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_293 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_292 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+(lib.CachedBmp_64 = function() {
+	this.initialize(ss["lets_meat_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_291 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+(lib.CachedBmp_63 = function() {
+	this.initialize(ss["lets_meat_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_62 = function() {
+	this.initialize(ss["lets_meat_atlas_4"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_290 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+(lib.CachedBmp_61 = function() {
+	this.initialize(ss["lets_meat_atlas_8"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_60 = function() {
+	this.initialize(ss["lets_meat_atlas_5"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_59 = function() {
+	this.initialize(ss["lets_meat_atlas_8"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_58 = function() {
+	this.initialize(ss["lets_meat_atlas_5"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_57 = function() {
+	this.initialize(ss["lets_meat_atlas_8"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_56 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_55 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_54 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_53 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_52 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_51 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_50 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_49 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_48 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_289 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+(lib.CachedBmp_47 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_288 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+(lib.CachedBmp_46 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_287 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+(lib.CachedBmp_45 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_286 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+(lib.CachedBmp_44 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_285 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+(lib.CachedBmp_43 = function() {
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_39 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_35 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_33 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_32 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_284 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+(lib.CachedBmp_30 = function() {
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_29 = function() {
-	this.initialize(ss["lets_meat_atlas_3"]);
+	this.initialize(ss["lets_meat_atlas_10"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_28 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_21 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
@@ -560,98 +560,98 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_283 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_282 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_281 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_280 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_8 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_279 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["lets_meat_atlas_2"]);
+	this.initialize(ss["lets_meat_atlas_11"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["lets_meat_atlas_4"]);
+	this.initialize(ss["lets_meat_atlas_9"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
@@ -1431,13 +1431,13 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_281();
+	this.instance = new lib.CachedBmp_15();
 	this.instance.setTransform(-1.45,0,0.3375,0.3375);
 
-	this.instance_1 = new lib.CachedBmp_282();
+	this.instance_1 = new lib.CachedBmp_16();
 	this.instance_1.setTransform(-8.8,-1.1,0.3375,0.3375);
 
-	this.instance_2 = new lib.CachedBmp_283();
+	this.instance_2 = new lib.CachedBmp_17();
 	this.instance_2.setTransform(-8.8,-1.1,0.3375,0.3375);
 
 	this.instance_3 = new lib.CachedBmp_19();
@@ -1611,10 +1611,10 @@ if (reversed == null) { reversed = false; }
 	this.instance_3 = new lib.CachedBmp_5();
 	this.instance_3.setTransform(-10.35,34.4,0.4696,0.4696);
 
-	this.instance_4 = new lib.CachedBmp_279();
+	this.instance_4 = new lib.CachedBmp_7();
 	this.instance_4.setTransform(-11.35,-2.25,0.4696,0.4696);
 
-	this.instance_5 = new lib.CachedBmp_280();
+	this.instance_5 = new lib.CachedBmp_8();
 	this.instance_5.setTransform(-28.2,-10.95,0.4696,0.4696);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).to({state:[{t:this.instance_4}]},1).to({state:[{t:this.instance_5}]},1).wait(1));
@@ -2486,7 +2486,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_29();
 	this.instance.setTransform(22.15,-137.2,0.4696,0.4696);
 
-	this.instance_1 = new lib.CachedBmp_284();
+	this.instance_1 = new lib.CachedBmp_30();
 	this.instance_1.setTransform(23.65,-135.1,0.4696,0.4696);
 
 	this.instance_2 = new lib.CachedBmp_31();
@@ -2539,133 +2539,133 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.tabName,p:{x:7.35,y:-284.9,text:"אַנְטְרֵקוֹט",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.tabName2,p:{x:11.35,y:-234.05,text:"ורד הצלע  ריב-איי",font:"normal 700 26px 'Assistant'",color:"#54100E",textAlign:"center",lineHeight:35.75,lineWidth:597}},{t:this.text_6,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",textAlign:"center",lineHeight:34.4,lineWidth:133}},{t:this.text_5,p:{x:89.35,y:176.25,text:"מתאים לכל סוגי הסטייקים",font:"normal 700 25px 'Assistant'",lineHeight:34.4,lineWidth:282}},{t:this.text_4,p:{x:-76.1,y:92,text:"בישול בחום גבוה\nלמשך שעות",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_3,p:{x:161.75,y:92,text:"צלייה בינונית\nאו קצרה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_2,p:{x:-100.45,y:-14.9,text:"נוקדת שומן במרכז",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:152}},{t:this.text_1,p:{x:262.9,y:-100.55,text:"עובי בינוני",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:101,textAlign:"right"}},{t:this.text,p:{x:-57.35,y:-180.1,text:"כמות שומן גבוהה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:142,textAlign:"right"}}]}).to({state:[{t:this.text_4,p:{x:7.35,y:-284.9,text:"אַנְטְרֵקוֹט",font:"normal 700 42px 'Assistant'",color:"#54100E",textAlign:"center",lineHeight:56.55,lineWidth:597}},{t:this.text_3,p:{x:11.35,y:-234.05,text:"ורד הצלע  ריב-איי",font:"normal 700 26px 'Assistant'",color:"#54100E",textAlign:"center",lineHeight:35.75,lineWidth:597}},{t:this.text_2,p:{x:-22.25,y:-145.3,text:"פרוסות אנטריקוט ברוטב יין חרדל ודבש",font:"normal 700 28px 'Assistant'",color:"#62120E",lineHeight:38.35,lineWidth:233}},{t:this.text_1,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:142,textAlign:"right"}},{t:this.text,p:{x:-22.25,y:-10.05,text:"צלייה קצרה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199,textAlign:"right"}},{t:this.instance}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:89.35,y:176.25,text:"לא מקובל לצלות בנתח שלם",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:282}},{t:this.text_6,p:{x:-76.1,y:92,text:"צלייה קצרה\nהקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"בישול ארוך\nטחינה",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:-116.4,y:1.05,text:"חלק שומני ועסיסי",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:152}},{t:this.text_3,p:{x:262.9,y:-100.55,text:"מרקם סיבי",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-108.95,y:-174.7,text:"חלק רזה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:87}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"צְלָעוֹת",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"ריפען  אונטר-ריב",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"צלעות ותפוחי \nאדמה בבישול ארוך",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"בישול ארוך",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"צְלָעוֹת",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"ריפען  אונטר-ריב",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_1}]},1).to({state:[{t:this.tabName2,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",textAlign:"center",lineHeight:34.4,lineWidth:133}},{t:this.text_6,p:{x:89.35,y:176.25,text:"השומן שבצד נחשב מעדן",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:282}},{t:this.text_5,p:{x:-76.1,y:92,text:"צלייה קצרה \nסטייקים הקפצה",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:161.75,y:92,text:"צליה ארוכה בישול ארוך עישון וכבישה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_3,p:{x:-164.3,y:2,text:"סיבים עבים ",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:104}},{t:this.text_2,p:{x:297.1,y:-142.8,text:"נתח שומן גדול בקצה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:163}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"חָזֶה בָּקָר",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"בריסקט  ברוסט",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"חזה בקר בבצלים מקורמלים ושום",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה ארוכה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"חָזֶה בָּקָר",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"בריסקט  ברוסט",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_2}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:89.35,y:176.25,text:"מתאים למרק ולחמין",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:282}},{t:this.text_6,p:{x:-76.1,y:92,text:"בישול קצר צלייה קצרה והקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"צליה ארוכה \nבישול ארוך",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:-148.35,y:-2.65,text:"דל שומן",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:72}},{t:this.text_3,p:{x:260.05,y:-100.55,text:"סיבי וקשה",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-89.3,y:-180.1,text:"רקמת שומן דקה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:142}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אוֹסוֹבּוּקוֹ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"פולן  זרוע",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"אוסובוקו מושלם",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"בישול ארוך",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אוֹסוֹבּוּקוֹ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"פולן  זרוע",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_3}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:89.35,y:176.25,text:"לצלות באש עקיפה וחום נמוך",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:282}},{t:this.text_6,p:{x:-76.1,y:92,text:"צלייה קצרה\nהקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"צליה ארוכה \nבישול ארוך",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:-100.45,y:-26.15,text:"פיס שומן",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:81}},{t:this.text_3,p:{x:214.1,y:-169.1,text:"עצם הצלע",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-106.15,y:-180.1,text:"סיבי ועדין",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:89}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אָסָאדוֹ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"קשתית  שפונדרה  שורט-ריבס",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"אסאדו בסיר",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"בישול ארוך",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אָסָאדוֹ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"קשתית  שפונדרה  שורט-ריבס",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_4}]},1).to({state:[{t:this.tabName2,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",textAlign:"center",lineHeight:34.4,lineWidth:133}},{t:this.text_6,p:{x:89.35,y:176.25,text:"מתאים מאוד להכנת המבורגרים",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:337}},{t:this.text_5,p:{x:-76.1,y:92,text:"צלייה קצרה \nהקפצה",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:161.75,y:92,text:"בישול ארוך\nצלייה ארוכה טחינה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_3,p:{x:274.15,y:-100.55,text:"צד שומני ורך",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-67.5,y:-164.6,text:"צד סיבי וקשה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:142}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"צַוָּאר",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"אזלה",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"תבשיל צוואר\nוירקות כתומים",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"בישול ארוך ",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.instance_5},{t:this.text_1,p:{x:7.35,y:-284.9,text:"צַוָּאר",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"אזלה",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_7},{t:this.tabName,p:{x:89.35,y:176.25,text:"מתאים לכל סוגי הסטייקים",font:"normal 700 25px 'Assistant'",color:"#621311",lineHeight:34.4,lineWidth:282,textAlign:"right"}},{t:this.tabName2,p:{x:-76.1,y:92,text:"בישול ארוך",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_6,p:{x:161.75,y:92,text:"צלייה בתנור \nקרפצ'יו וסטייקים",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:-127.7,y:-14.9,text:"חלק",font:"normal 700 20px 'Assistant'",lineHeight:27.95,lineWidth:44}},{t:this.text_4,p:{x:236.6,y:-52.65,text:"דל שומן",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:62}},{t:this.text_3,p:{x:-57.35,y:-180.1,text:"גיד קשה מאוד",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:119}},{t:this.text_2,p:{x:183.6,y:-184.85,text:"שכבת שומן דקה ",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:144}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"סִנְּטָה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"מותן פור-פילה סירלוין",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"סינטה צלוייה\nעם אווז מעושן",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה קצרה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"סִנְּטָה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"מותן פור-פילה סירלוין",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_6}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:89.35,y:176.25,text:"אחד הנתחים המגוונים ביותר לשימוש",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:361}},{t:this.text_6,p:{x:-76.1,y:92,text:"בישול ארוך \nצלייה ארוכה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"צלייה, סטייקים הקפצה וקרפצ'יו",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:189.3,y:-172.65,text:"נקי משומן",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:84}},{t:this.text_3,p:{x:262.9,y:-114.65,text:"עבה בצד שני",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-138.15,y:-165.05,text:"דק בצד השני",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:142}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"פִילֶה - מִינְיוֹן",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"מותנית טנדר-לוין פילה",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"פילה – מיניון ברוטב יין אדום יבש",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה קצרה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"פִילֶה - מִינְיוֹן",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"מותנית טנדר-לוין פילה",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_7}]},1).to({state:[{t:this.text_7},{t:this.tabName,p:{x:89.35,y:176.25,text:"נתח חלק המתאים מאוד ליישון",font:"normal 700 25px 'Assistant'",color:"#621311",lineHeight:34.4,lineWidth:315,textAlign:"right"}},{t:this.tabName2,p:{x:-76.1,y:92,text:"בישול ארוך \nייבש את הנתח",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_6,p:{x:161.75,y:92,text:"צלייה, שיפודים סטייקים וקרפצ'יו",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:-122.05,y:-43.1,text:"מעט גידים",font:"normal 700 20px 'Assistant'",lineHeight:27.95,lineWidth:88}},{t:this.text_4,p:{x:252.6,y:-73.35,text:"דל שומן",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:73}},{t:this.text_3,p:{x:-57.35,y:-141.6,text:"סיבים קצרים",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:103}},{t:this.text_2,p:{x:211.75,y:-189.4,text:"צורת מימייה",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:117}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"כְּנַף הָעֹקֶץ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"שייטל ראמפ-סטייק",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"נתח שייטל צרוב \nעל הפלאנצ'ה",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה קצרה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"כְּנַף הָעֹקֶץ",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"שייטל ראמפ-סטייק",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_8}]},1).to({state:[{t:this.tabName,p:{x:167.65,y:176.25,text:":המלצת השף",font:"normal 700 23px 'Assistant'",color:"#F0B807",lineHeight:31.85,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:101.75,y:176.25,text:"מומלץ לטגן היטב מכל הצדדים כנתח שלם",font:"normal 700 23px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:31.85,lineWidth:370}},{t:this.text_6,p:{x:-76.1,y:92,text:"בישול קצר \nאו הקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"בישול בינוני-ארוך צלייה כנתח אחד",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:195.85,y:-171.9,text:"עגלגל",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:71}},{t:this.text_3,p:{x:300.45,y:-90.25,text:"בעל סיבים קצרים",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:152}},{t:this.text_2,p:{x:17.8,y:-158.5,text:"מעט מאוד שומן חיצוני",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:178}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אֲוָזִית",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"אגוז אגוזית קאצ'ה קצ'קע",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"אווזית בחרדל\n דבש וטימין",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:166}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה ארוכה בתנור",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"אֲוָזִית",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"אגוז אגוזית קאצ'ה קצ'קע",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_9}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:88.3,y:176.25,text:"בישול ארוך נותן טעמי בשר עמוקים",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:352}},{t:this.text_6,p:{x:-76.1,y:92,text:"צלייה קצרה\nאו הקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"בישול בינוני-ארוך צלייה כנתח אחד",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:-170,y:-26.15,text:"פנים רזה",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:105}},{t:this.text_3,p:{x:298.45,y:-47.25,text:"סיבים בינוניים",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:144}},{t:this.text_2,p:{x:42.15,y:-179.2,text:"שכבת שומן עבה בחלק העליון",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:273}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"יַרְכָּה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"צ'אך צ'אק סילבר-סייד וייסברטאן",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"וייסברטאן \nבניחוח מרווה",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:180}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה ארוכה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"יַרְכָּה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"צ'אך צ'אק סילבר-סייד וייסברטאן",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_10}]},1).to({state:[{t:this.tabName2,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",textAlign:"center",lineHeight:34.4,lineWidth:133}},{t:this.text_6,p:{x:89.35,y:176.25,text:"מתאים מאוד לשניצלים בפריסה דקה",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:360}},{t:this.text_5,p:{x:-76.1,y:92,text:"בישול ארוך\nוסטייקים",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:161.75,y:92,text:"צלייה קצרה\nוקרפצ'יו",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_3,p:{x:295.8,y:-88.35,text:"בעל סיבים ארוכים",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:160}},{t:this.text_2,p:{x:-88.35,y:-180.1,text:"אחוזי שומן נמוכים",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:142}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"כַּף",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"טופ-ראמפ  טופ-סייד",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"כף חגיגי על הפלאנצ'ה",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה קצרה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"כַּף",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"טופ-ראמפ  טופ-סייד",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_11}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 25px 'Assistant'",color:"#F0B807",lineHeight:34.4,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:89.35,y:176.25,text:"מומלץ מאוד להכנת סטייקים",font:"normal 700 25px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:34.4,lineWidth:282}},{t:this.text_6,p:{x:-76.1,y:92,text:"צלייה קצרה \nאו הקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"צלייה ארוכה",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:158.8,y:-182.1,text:"אחוז שומן גבוה",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:152}},{t:this.text_3,p:{x:300.45,y:-115.55,text:"דק בצד שני",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:-154.95,y:-154.8,text:"עבה בצד אחד",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:118}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"פְּלָדָה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"כְּסָלִים  נתח קצבים ",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:-22.25,y:-145.3,text:"נתח קצבים\nברוטב רימונים",font:"normal 700 28px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:38.35,lineWidth:226}},{t:this.text_3,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",textAlign:"right",lineHeight:34.4,lineWidth:142}},{t:this.text_2,p:{x:-22.25,y:-10.05,text:"צלייה ארוכה בתנור",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"פְּלָדָה",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"כְּסָלִים  נתח קצבים ",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}},{t:this.instance_12}]},1).to({state:[{t:this.tabName,p:{x:158.65,y:176.25,text:":המלצת השף",font:"normal 700 23px 'Assistant'",color:"#F0B807",lineHeight:31.85,lineWidth:133,textAlign:"center"}},{t:this.tabName2,p:{x:95.65,y:176.25,text:"לנסר את העצם לאורכה ולהוציא את המח",font:"normal 700 23px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:31.85,lineWidth:365}},{t:this.text_6,p:{x:-76.1,y:92,text:"צלייה קצרה\n או הקפצה",font:"normal 700 22px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:30.55,lineWidth:187}},{t:this.text_5,p:{x:161.75,y:92,text:"בישול ארוך \nצלייה ארוכה",font:"normal 700 22px 'Assistant'",lineHeight:30.55,lineWidth:187}},{t:this.text_4,p:{x:-9.55,y:-180.3,text:"רקמות חיבור",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"right",lineHeight:27.95,lineWidth:107}},{t:this.text_3,p:{x:228.75,y:-75.2,text:"אחוזי שומן נמוכים",font:"normal 700 20px 'Assistant'",color:"#621311",textAlign:"center",lineHeight:27.95,lineWidth:101}},{t:this.text_2,p:{x:181.1,y:-163.15,text:"עצם הפולי",font:"normal 700 20px 'Assistant'",color:"#621311",lineHeight:27.95,lineWidth:83}},{t:this.text_1,p:{x:7.35,y:-284.9,text:"פּוֹלִי",font:"normal 700 42px 'Assistant'",color:"#54100E",lineHeight:56.55,lineWidth:597,textAlign:"center"}},{t:this.text,p:{x:11.35,y:-234.05,text:"שריר אחורי",font:"normal 700 26px 'Assistant'",color:"#54100E",lineHeight:35.75,lineWidth:597,textAlign:"center"}}]},1).to({state:[{t:this.text_4,p:{x:7.35,y:-284.9,text:"פּוֹלִי",font:"normal 700 42px 'Assistant'",color:"#54100E",textAlign:"center",lineHeight:56.55,lineWidth:597}},{t:this.text_3,p:{x:11.35,y:-234.05,text:"שריר אחורי",font:"normal 700 26px 'Assistant'",color:"#54100E",textAlign:"center",lineHeight:35.75,lineWidth:597}},{t:this.instance_13},{t:this.text_2,p:{x:-22.25,y:-145.3,text:"פולי עם בצלצלי\nשאלוט ורוזמרין",font:"normal 700 28px 'Assistant'",color:"#62120E",lineHeight:38.35,lineWidth:226}},{t:this.text_1,p:{x:-22.25,y:-49.1,text:":שיטת עשייה",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:142,textAlign:"right"}},{t:this.text,p:{x:-22.25,y:-10.05,text:"בישול ארוך בסיר",font:"normal 700 25px 'Assistant'",color:"#62120E",lineHeight:34.4,lineWidth:199,textAlign:"right"}}]},1).wait(1));
 
 	// arrows
-	this.instance_14 = new lib.CachedBmp_285();
+	this.instance_14 = new lib.CachedBmp_43();
 	this.instance_14.setTransform(-180.75,-157.45,0.4696,0.4696);
 
-	this.instance_15 = new lib.CachedBmp_286();
+	this.instance_15 = new lib.CachedBmp_44();
 	this.instance_15.setTransform(-179.6,-148.55,0.4696,0.4696);
 
-	this.instance_16 = new lib.CachedBmp_287();
+	this.instance_16 = new lib.CachedBmp_45();
 	this.instance_16.setTransform(-221,-118.35,0.4696,0.4696);
 
-	this.instance_17 = new lib.CachedBmp_288();
+	this.instance_17 = new lib.CachedBmp_46();
 	this.instance_17.setTransform(-187.75,-150.9,0.4696,0.4696);
 
-	this.instance_18 = new lib.CachedBmp_289();
+	this.instance_18 = new lib.CachedBmp_47();
 	this.instance_18.setTransform(-162.1,-159.5,0.4696,0.4696);
 
-	this.instance_19 = new lib.CachedBmp_290();
+	this.instance_19 = new lib.CachedBmp_48();
 	this.instance_19.setTransform(-142.2,-155.7,0.4696,0.4696);
 
-	this.instance_20 = new lib.CachedBmp_291();
+	this.instance_20 = new lib.CachedBmp_49();
 	this.instance_20.setTransform(-143.6,-161.45,0.4696,0.4696);
 
-	this.instance_21 = new lib.CachedBmp_292();
+	this.instance_21 = new lib.CachedBmp_50();
 	this.instance_21.setTransform(-201.5,-144.15,0.4696,0.4696);
 
-	this.instance_22 = new lib.CachedBmp_293();
+	this.instance_22 = new lib.CachedBmp_51();
 	this.instance_22.setTransform(-167.15,-164.65,0.4696,0.4696);
 
-	this.instance_23 = new lib.CachedBmp_294();
+	this.instance_23 = new lib.CachedBmp_52();
 	this.instance_23.setTransform(-81,-168.95,0.4696,0.4696);
 
-	this.instance_24 = new lib.CachedBmp_295();
+	this.instance_24 = new lib.CachedBmp_53();
 	this.instance_24.setTransform(-189,-151.8,0.4696,0.4696);
 
-	this.instance_25 = new lib.CachedBmp_296();
+	this.instance_25 = new lib.CachedBmp_54();
 	this.instance_25.setTransform(-163.95,-154.5,0.4696,0.4696);
 
-	this.instance_26 = new lib.CachedBmp_297();
+	this.instance_26 = new lib.CachedBmp_55();
 	this.instance_26.setTransform(-226.3,-154.3,0.4696,0.4696);
 
-	this.instance_27 = new lib.CachedBmp_298();
+	this.instance_27 = new lib.CachedBmp_56();
 	this.instance_27.setTransform(-67.9,-157.25,0.4696,0.4696);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_14}]}).to({state:[]},1).to({state:[{t:this.instance_15}]},1).to({state:[]},1).to({state:[{t:this.instance_16}]},1).to({state:[]},1).to({state:[{t:this.instance_17}]},1).to({state:[]},1).to({state:[{t:this.instance_18}]},1).to({state:[]},1).to({state:[{t:this.instance_19}]},1).to({state:[]},1).to({state:[{t:this.instance_20}]},1).to({state:[]},1).to({state:[{t:this.instance_21}]},1).to({state:[]},1).to({state:[{t:this.instance_22}]},1).to({state:[]},1).to({state:[{t:this.instance_23}]},1).to({state:[]},1).to({state:[{t:this.instance_24}]},1).to({state:[]},1).to({state:[{t:this.instance_25}]},1).to({state:[]},1).to({state:[{t:this.instance_26}]},1).to({state:[]},1).to({state:[{t:this.instance_27}]},1).to({state:[]},1).wait(1));
 
 	// graphic
-	this.instance_28 = new lib.CachedBmp_299();
+	this.instance_28 = new lib.CachedBmp_57();
 	this.instance_28.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_29 = new lib.CachedBmp_300();
+	this.instance_29 = new lib.CachedBmp_58();
 	this.instance_29.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_30 = new lib.CachedBmp_301();
+	this.instance_30 = new lib.CachedBmp_59();
 	this.instance_30.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_31 = new lib.CachedBmp_302();
+	this.instance_31 = new lib.CachedBmp_60();
 	this.instance_31.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_32 = new lib.CachedBmp_303();
+	this.instance_32 = new lib.CachedBmp_61();
 	this.instance_32.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_33 = new lib.CachedBmp_304();
+	this.instance_33 = new lib.CachedBmp_62();
 	this.instance_33.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_34 = new lib.CachedBmp_305();
+	this.instance_34 = new lib.CachedBmp_63();
 	this.instance_34.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_35 = new lib.CachedBmp_306();
+	this.instance_35 = new lib.CachedBmp_64();
 	this.instance_35.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_36 = new lib.CachedBmp_307();
+	this.instance_36 = new lib.CachedBmp_65();
 	this.instance_36.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_37 = new lib.CachedBmp_308();
+	this.instance_37 = new lib.CachedBmp_66();
 	this.instance_37.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_38 = new lib.CachedBmp_309();
+	this.instance_38 = new lib.CachedBmp_67();
 	this.instance_38.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_39 = new lib.CachedBmp_310();
+	this.instance_39 = new lib.CachedBmp_68();
 	this.instance_39.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_40 = new lib.CachedBmp_311();
+	this.instance_40 = new lib.CachedBmp_69();
 	this.instance_40.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_41 = new lib.CachedBmp_312();
+	this.instance_41 = new lib.CachedBmp_70();
 	this.instance_41.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_42 = new lib.CachedBmp_313();
+	this.instance_42 = new lib.CachedBmp_71();
 	this.instance_42.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_43 = new lib.CachedBmp_314();
+	this.instance_43 = new lib.CachedBmp_72();
 	this.instance_43.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_44 = new lib.CachedBmp_315();
+	this.instance_44 = new lib.CachedBmp_73();
 	this.instance_44.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_45 = new lib.CachedBmp_316();
+	this.instance_45 = new lib.CachedBmp_74();
 	this.instance_45.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_46 = new lib.CachedBmp_317();
+	this.instance_46 = new lib.CachedBmp_75();
 	this.instance_46.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_47 = new lib.CachedBmp_318();
+	this.instance_47 = new lib.CachedBmp_76();
 	this.instance_47.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_48 = new lib.CachedBmp_319();
+	this.instance_48 = new lib.CachedBmp_77();
 	this.instance_48.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_49 = new lib.CachedBmp_320();
+	this.instance_49 = new lib.CachedBmp_78();
 	this.instance_49.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_50 = new lib.CachedBmp_321();
+	this.instance_50 = new lib.CachedBmp_79();
 	this.instance_50.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_51 = new lib.CachedBmp_322();
+	this.instance_51 = new lib.CachedBmp_80();
 	this.instance_51.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_52 = new lib.CachedBmp_323();
+	this.instance_52 = new lib.CachedBmp_81();
 	this.instance_52.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_53 = new lib.CachedBmp_324();
+	this.instance_53 = new lib.CachedBmp_82();
 	this.instance_53.setTransform(-209.4,-197.25,0.4696,0.4696);
 
-	this.instance_54 = new lib.CachedBmp_325();
+	this.instance_54 = new lib.CachedBmp_83();
 	this.instance_54.setTransform(-236.7,-197.25,0.4696,0.4696);
 
-	this.instance_55 = new lib.CachedBmp_326();
+	this.instance_55 = new lib.CachedBmp_84();
 	this.instance_55.setTransform(-209.4,-197.25,0.4696,0.4696);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_28}]}).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_38}]},1).to({state:[{t:this.instance_39}]},1).to({state:[{t:this.instance_40}]},1).to({state:[{t:this.instance_41}]},1).to({state:[{t:this.instance_42}]},1).to({state:[{t:this.instance_43}]},1).to({state:[{t:this.instance_44}]},1).to({state:[{t:this.instance_45}]},1).to({state:[{t:this.instance_46}]},1).to({state:[{t:this.instance_47}]},1).to({state:[{t:this.instance_48}]},1).to({state:[{t:this.instance_49}]},1).to({state:[{t:this.instance_50}]},1).to({state:[{t:this.instance_51}]},1).to({state:[{t:this.instance_52}]},1).to({state:[{t:this.instance_53}]},1).to({state:[{t:this.instance_54}]},1).to({state:[{t:this.instance_55}]},1).wait(1));
@@ -4258,7 +4258,7 @@ if (reversed == null) { reversed = false; }
 		function fixing() {
 			resetCow();
 			self.rightside.text = "";
-			self.leftside.text = "לחץ על אחד הנתחים מודגשים למידע נוסף";
+			self.leftside.text = "לחץ על אחד הנתחים המודגשים למידע נוסף";
 			self.cow.grayCow.visible = true; // הצגת הנתחים שלא מסומנים בצבע אפור
 			self.reBtn.visible = true //החזרת כפתור איפוס
 			self.cow.redCow.visible = false; // הסתרת הפרה האדומה
@@ -5215,18 +5215,18 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/Artwork31aiAssetscopy.png?1601989758561", id:"Artwork31aiAssetscopy"},
-		{src:"images/lets_meat_atlas_1.png?1601989758441", id:"lets_meat_atlas_1"},
-		{src:"images/lets_meat_atlas_2.png?1601989758442", id:"lets_meat_atlas_2"},
-		{src:"images/lets_meat_atlas_3.png?1601989758442", id:"lets_meat_atlas_3"},
-		{src:"images/lets_meat_atlas_4.png?1601989758442", id:"lets_meat_atlas_4"},
-		{src:"images/lets_meat_atlas_5.png?1601989758442", id:"lets_meat_atlas_5"},
-		{src:"images/lets_meat_atlas_6.png?1601989758442", id:"lets_meat_atlas_6"},
-		{src:"images/lets_meat_atlas_7.png?1601989758442", id:"lets_meat_atlas_7"},
-		{src:"images/lets_meat_atlas_8.png?1601989758442", id:"lets_meat_atlas_8"},
-		{src:"images/lets_meat_atlas_9.png?1601989758442", id:"lets_meat_atlas_9"},
-		{src:"images/lets_meat_atlas_10.png?1601989758443", id:"lets_meat_atlas_10"},
-		{src:"images/lets_meat_atlas_11.png?1601989758443", id:"lets_meat_atlas_11"}
+		{src:"images/Artwork31aiAssetscopy.png?1602014135946", id:"Artwork31aiAssetscopy"},
+		{src:"images/lets_meat_atlas_1.png?1602014135587", id:"lets_meat_atlas_1"},
+		{src:"images/lets_meat_atlas_2.png?1602014135587", id:"lets_meat_atlas_2"},
+		{src:"images/lets_meat_atlas_3.png?1602014135591", id:"lets_meat_atlas_3"},
+		{src:"images/lets_meat_atlas_4.png?1602014135591", id:"lets_meat_atlas_4"},
+		{src:"images/lets_meat_atlas_5.png?1602014135592", id:"lets_meat_atlas_5"},
+		{src:"images/lets_meat_atlas_6.png?1602014135592", id:"lets_meat_atlas_6"},
+		{src:"images/lets_meat_atlas_7.png?1602014135592", id:"lets_meat_atlas_7"},
+		{src:"images/lets_meat_atlas_8.png?1602014135593", id:"lets_meat_atlas_8"},
+		{src:"images/lets_meat_atlas_9.png?1602014135593", id:"lets_meat_atlas_9"},
+		{src:"images/lets_meat_atlas_10.png?1602014135594", id:"lets_meat_atlas_10"},
+		{src:"images/lets_meat_atlas_11.png?1602014135595", id:"lets_meat_atlas_11"}
 	],
 	preloads: []
 };
